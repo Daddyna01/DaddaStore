@@ -13,7 +13,7 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
-        NavigationSplitView {
+        NavigationSplitVieww {
             List {
                 ForEach(items) { item in
                     NavigationLink {
